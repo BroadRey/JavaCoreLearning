@@ -16,6 +16,7 @@ class DemoPhonebook {
             System.out.println("Использование: java DemoPhonebook <Имя>");
         } else {
             int iterator = 0;
+            
             for (String[] x : numbers) {
                 if (x[0].equals(args[0])) {
                     System.out.println(x[1]);
